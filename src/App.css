@@ -1,0 +1,177 @@
+body {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+.image {
+  max-width: 80vw;
+  max-height: 80vh;
+}
+
+.app_wrapper {
+  color: black;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+}
+
+.app_header {
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+}
+
+.app_content {
+  flex: 1;
+}
+.app_header_logo {
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.app_header_dummy {
+  flex-basis: 25%;
+  margin-left: 10px;
+}
+
+.app_header_social {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-basis: 25%;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  padding: 5px 0px 5px 0px;
+  margin-right: 10px;
+}
+
+.facebook, .instagram, .twitter, .linkedin {
+  width: 33px;
+  height: 50px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.info {
+  width: 100%;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  flex-flow: column;
+  pointer-events:none;
+  padding: 5px 0px 5px 0px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  color: white;
+  background-color: black;
+  display: flex;
+  width: 100%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  align-items: center;
+}
+
+.actions {
+  flex-basis: 33.3%;
+  display: flex;
+}
+
+.action {
+  padding: 5px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  flex-basis: 33.3%;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.navigation {
+  flex-basis: 33.3%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrapper {
+  width: 100vw;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  flex-grow: 0;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+
+.result {
+  color: black;
+}
+
+.index_faq {
+  color: color;
+  text-align: center;
+  flex-basis: 70%;
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+  margin-left: 20px;
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+.index_form {
+  flex-basis: 30%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  background-color: white;
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+
+.index {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-flow: column;
+  height: 100%;
+}
+
+.index_dummy {
+  background-color: white;
+  box-shadow: 0px 0px 2px 2px rgba(0,0,0,0.1);
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  flex: 1;
+}
